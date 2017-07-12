@@ -1,0 +1,1039 @@
+
+> css-chunks-sample-app@1.0.0 start /Users/ankeet.maini/Code/css-chunks-sample-app
+> webpack --config webpack.config.js && node start
+
+Hash: beb74e6d602065a646a5
+Version: webpack 2.7.0
+Time: 12440ms
+                                      Asset       Size   Chunks                    Chunk Names
+    manifest.bundle.no_css.no_css.no_css.js    6.08 kB        5  [emitted]         manifest
+      012cf6a10129e2275d79d6adac7f3b02.woff    57.6 kB           [emitted]         
+                                 c.chunk.js    2.16 kB        0  [emitted]         c
+                                 b.chunk.js    2.15 kB        1  [emitted]         b
+                                 a.chunk.js    2.16 kB        2  [emitted]         a
+                           vendor.bundle.js     845 kB        3  [emitted]  [big]  vendor
+                              app.bundle.js    37.7 kB        4  [emitted]         app
+                         manifest.bundle.js    6.06 kB        5  [emitted]         manifest
+                 stylesheets/app-global.css    4.31 kB        4  [emitted]         app
+                          c.chunk.no_css.js    1.54 kB  0, 0, 0  [emitted]         c, c, c
+                          b.chunk.no_css.js    1.54 kB  1, 1, 1  [emitted]         b, b, b
+                          a.chunk.no_css.js    1.54 kB  2, 2, 2  [emitted]         a, a, a
+                    vendor.bundle.no_css.js     845 kB  3, 3, 3  [emitted]  [big]  vendor, vendor, vendor
+                       app.bundle.no_css.js    20.1 kB  4, 4, 4  [emitted]         app, app, app
+                  manifest.bundle.no_css.js    6.06 kB  5, 5, 5  [emitted]         manifest, manifest, manifest
+                  stylesheets/c-modules.css  212 bytes        0  [emitted]         c
+                  stylesheets/b-modules.css  211 bytes        1  [emitted]         b
+                  stylesheets/a-modules.css  212 bytes        2  [emitted]         a
+                   c.chunk.no_css.no_css.js    1.55 kB     0, 0  [emitted]         c, c
+                   b.chunk.no_css.no_css.js    1.55 kB     1, 1  [emitted]         b, b
+                   a.chunk.no_css.no_css.js    1.55 kB     2, 2  [emitted]         a, a
+             vendor.bundle.no_css.no_css.js     845 kB     3, 3  [emitted]  [big]  vendor, vendor
+                app.bundle.no_css.no_css.js    20.1 kB     4, 4  [emitted]         app, app
+           manifest.bundle.no_css.no_css.js    6.07 kB     5, 5  [emitted]         manifest, manifest
+                 stylesheets/app-vendor.css    12.4 kB        4  [emitted]         app
+            c.chunk.no_css.no_css.no_css.js    1.55 kB        0  [emitted]         c
+            b.chunk.no_css.no_css.no_css.js    1.55 kB        1  [emitted]         b
+            a.chunk.no_css.no_css.no_css.js    1.55 kB        2  [emitted]         a
+      vendor.bundle.no_css.no_css.no_css.js     845 kB        3  [emitted]  [big]  vendor
+         app.bundle.no_css.no_css.no_css.js    20.1 kB        4  [emitted]         app
+     570eb83859dc23dd0eec423a49e147fe.woff2    44.3 kB           [emitted]         
+                             c.chunk.js.map    2.13 kB        0  [emitted]         c
+                      c.chunk.no_css.js.map    2.62 kB  0, 0, 0  [emitted]         c, c, c
+              stylesheets/c-modules.css.map  102 bytes        0  [emitted]         c
+               c.chunk.no_css.no_css.js.map     2.4 kB     0, 0  [emitted]         c, c
+        c.chunk.no_css.no_css.no_css.js.map    2.18 kB        0  [emitted]         c
+                             b.chunk.js.map    2.13 kB        1  [emitted]         b
+                      b.chunk.no_css.js.map    2.62 kB  1, 1, 1  [emitted]         b, b, b
+              stylesheets/b-modules.css.map  102 bytes        1  [emitted]         b
+               b.chunk.no_css.no_css.js.map     2.4 kB     1, 1  [emitted]         b, b
+        b.chunk.no_css.no_css.no_css.js.map    2.18 kB        1  [emitted]         b
+                             a.chunk.js.map    2.13 kB        2  [emitted]         a
+                      a.chunk.no_css.js.map    2.62 kB  2, 2, 2  [emitted]         a, a, a
+              stylesheets/a-modules.css.map  102 bytes        2  [emitted]         a
+               a.chunk.no_css.no_css.js.map     2.4 kB     2, 2  [emitted]         a, a
+        a.chunk.no_css.no_css.no_css.js.map    2.18 kB        2  [emitted]         a
+                       vendor.bundle.js.map    1.01 MB        3  [emitted]         vendor
+                vendor.bundle.no_css.js.map    1.07 MB  3, 3, 3  [emitted]         vendor, vendor, vendor
+         vendor.bundle.no_css.no_css.js.map    1.04 MB     3, 3  [emitted]         vendor, vendor
+  vendor.bundle.no_css.no_css.no_css.js.map    1.01 MB        3  [emitted]         vendor
+                          app.bundle.js.map    44.8 kB        4  [emitted]         app
+             stylesheets/app-global.css.map  103 bytes        4  [emitted]         app
+                   app.bundle.no_css.js.map    46.9 kB  4, 4, 4  [emitted]         app, app, app
+            app.bundle.no_css.no_css.js.map    45.9 kB     4, 4  [emitted]         app, app
+             stylesheets/app-vendor.css.map  103 bytes        4  [emitted]         app
+     app.bundle.no_css.no_css.no_css.js.map    44.9 kB        4  [emitted]         app
+                     manifest.bundle.js.map    6.17 kB        5  [emitted]         manifest
+              manifest.bundle.no_css.js.map    6.33 kB  5, 5, 5  [emitted]         manifest, manifest, manifest
+       manifest.bundle.no_css.no_css.js.map    6.27 kB     5, 5  [emitted]         manifest, manifest
+manifest.bundle.no_css.no_css.no_css.js.map    6.21 kB        5  [emitted]         manifest
+                                 index.html  813 bytes           [emitted]         
+   [5] ./~/react/react.js 56 bytes {3} [built]
+   [7] ./~/prop-types/index.js 1.08 kB {3} [built]
+  [21] ./~/react/lib/React.js 5.08 kB {3} [built]
+  [38] ./~/react-dom/index.js 59 bytes {3} [built]
+  [39] ./~/react-router-dom/es/index.js 925 bytes {3} [built]
+  [91] ./~/react-router-dom/es/Link.js 3.82 kB {3} [built]
+ [102] ./~/flexboxgrid/dist/flexboxgrid.min.css 13 kB {4} [built]
+ [103] ./src/styles/global-styles.scss 5.2 kB {4} [built]
+ [104] ./src/app.js 3.08 kB {4} [built]
+ [198] ./~/react-router-dom/es/HashRouter.js 2.1 kB {3} [built]
+ [208] ./~/react-router-dom/es/withRouter.js 53 bytes {3} [built]
+ [231] multi react react-dom react-router-dom 52 bytes {3} [built]
+ [241] ./~/css-loader/lib/css-base.js 2.26 kB [built]
+ [242] ./src/styles/MaterialIcons-Regular.woff 83 bytes [built]
+ [243] ./src/styles/MaterialIcons-Regular.woff2 84 bytes [built]
+    + 229 hidden modules
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:93:19: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:98:16: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:103:39: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:107:29: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:113:16: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:127:29: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:137:26: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:141:23: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:146:22: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:152:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:165:23: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:174:40: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:177:26: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:198:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:208:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:218:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:228:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:91:18: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:97:27: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:102:22: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:106:17: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:112:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:125:26: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:130:26: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:140:29: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:145:40: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:150:26: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:155:26: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:169:34: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:176:41: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:197:16: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:207:14: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:217:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:227:13: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:91:16: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:97:25: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:102:20: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:106:15: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:112:13: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:176:39: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:197:14: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:207:12: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:217:13: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:227:11: Expected single space before "{" (block-opening-brace-space-before)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:92:18: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:126:26: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:131:28: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:132:24: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:133:18: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:134:46: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:135:49: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:136:24: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:151:21: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:156:22: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:157:24: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:158:28: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:159:29: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:160:22: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:161:23: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:162:23: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:163:18: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:164:21: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:170:26: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:171:20: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:172:34: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:173:64: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:89:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:93:19: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:98:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:103:39: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:107:29: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:113:16: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:174:43: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:177:30: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:195:23: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:198:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:205:23: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:208:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:215:23: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:218:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:225:23: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:228:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:83:20: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:92:13: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:93:12: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:98:15: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:103:22: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:107:22: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:113:13: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:127:22: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:152:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:177:26: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:198:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:208:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:218:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:228:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:75:3: Expected indentation of 2 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:75:3: Expected indentation of 2 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:77:3: Expected indentation of 2 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:77:3: Expected indentation of 2 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:96:5: Expected indentation of 0 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:97:5: Expected indentation of 0 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:111:3: Expected indentation of 0 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:112:3: Expected indentation of 0 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:145:3: Expected indentation of 0 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:150:3: Expected indentation of 0 spaces (indentation)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:70:29: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:70:63: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:86:41: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:118:41: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:118:76: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:118:107: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:120:35: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:134:41: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/styles/global-styles.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:135:44: Expected a leading zero (number-leading-zero)
+ @ ./src/app.js 31:0-38
+
+WARNING in ./src/components/B/B.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/B/B.scss:5:2: Expected newline after "}" (block-closing-brace-newline-after)
+ @ ./src/components/B/B.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/B/index.js
+ @ ./~/bundle-loader?lazy&name=b!./src/components/B/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/B/B.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/B/B.scss:7:15: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/components/B/B.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/B/index.js
+ @ ./~/bundle-loader?lazy&name=b!./src/components/B/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/B/B.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/B/B.scss:6:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/components/B/B.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/B/index.js
+ @ ./~/bundle-loader?lazy&name=b!./src/components/B/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/B/B.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/B/B.scss:6:3: Expected empty line before rule (rule-empty-line-before)
+ @ ./src/components/B/B.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/B/index.js
+ @ ./~/bundle-loader?lazy&name=b!./src/components/B/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/A/A.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/A/A.scss:5:2: Expected newline after "}" (block-closing-brace-newline-after)
+ @ ./src/components/A/A.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/A/index.js
+ @ ./~/bundle-loader?lazy&name=a!./src/components/A/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/A/A.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/A/A.scss:7:15: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/components/A/A.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/A/index.js
+ @ ./~/bundle-loader?lazy&name=a!./src/components/A/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/A/A.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/A/A.scss:6:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/components/A/A.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/A/index.js
+ @ ./~/bundle-loader?lazy&name=a!./src/components/A/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/A/A.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/A/A.scss:6:3: Expected empty line before rule (rule-empty-line-before)
+ @ ./src/components/A/A.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/A/index.js
+ @ ./~/bundle-loader?lazy&name=a!./src/components/A/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/C/C.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/C/C.scss:5:2: Expected newline after "}" (block-closing-brace-newline-after)
+ @ ./src/components/C/C.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/C/index.js
+ @ ./~/bundle-loader?lazy&name=c!./src/components/C/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/C/C.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/C/C.scss:7:15: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+ @ ./src/components/C/C.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/C/index.js
+ @ ./~/bundle-loader?lazy&name=c!./src/components/C/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/C/C.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/C/C.scss:6:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+ @ ./src/components/C/C.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/C/index.js
+ @ ./~/bundle-loader?lazy&name=c!./src/components/C/index.js
+ @ ./src/app.js
+
+WARNING in ./src/components/C/C.scss
+(Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/C/C.scss:6:3: Expected empty line before rule (rule-empty-line-before)
+ @ ./src/components/C/C.js 12:9-28
+ @ ./~/babel-loader/lib!./src/components/C/index.js
+ @ ./~/bundle-loader?lazy&name=c!./src/components/C/index.js
+ @ ./src/app.js
+
+WARNING in 
+UnusedFilesWebpackPlugin found some unused files:
+npm-debug.log
+package.json
+server.js
+webpack.config.js
+Child html-webpack-plugin for "index.html":
+       [0] ./~/lodash/lodash.js 540 kB {0} [built]
+       [1] ./~/html-webpack-plugin/lib/loader.js!./index.tpl.html 842 bytes {0} [built]
+       [2] (webpack)/buildin/global.js 509 bytes {0} [built]
+       [3] (webpack)/buildin/module.js 517 bytes {0} [built]
+Child extract-text-webpack-plugin:
+       [0] ./~/css-loader/lib/css-base.js 2.26 kB {0} [built]
+       [1] ./src/styles/MaterialIcons-Regular.woff 83 bytes {0} [built]
+       [2] ./src/styles/MaterialIcons-Regular.woff2 84 bytes {0} [built]
+       [3] ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss 4.68 kB {0} [built] [115 warnings]
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:93:19: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:98:16: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:103:39: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:107:29: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:113:16: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:127:29: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:137:26: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:141:23: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:146:22: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:152:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:165:23: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:174:40: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:177:26: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:198:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:208:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:218:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:228:18: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:91:18: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:97:27: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:102:22: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:106:17: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:112:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:125:26: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:130:26: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:140:29: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:145:40: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:150:26: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:155:26: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:169:34: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:176:41: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:197:16: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:207:14: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:217:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:227:13: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:91:16: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:97:25: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:102:20: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:106:15: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:112:13: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:176:39: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:197:14: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:207:12: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:217:13: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:227:11: Expected single space before "{" (block-opening-brace-space-before)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:92:18: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:126:26: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:131:28: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:132:24: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:133:18: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:134:46: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:135:49: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:136:24: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:151:21: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:156:22: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:157:24: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:158:28: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:159:29: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:160:22: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:161:23: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:162:23: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:163:18: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:164:21: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:170:26: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:171:20: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:172:34: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:173:64: Expected newline after ";" in a multi-line declaration block (declaration-block-semicolon-newline-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:89:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:93:19: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:98:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:103:39: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:107:29: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:113:16: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:174:43: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:177:30: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:195:23: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:198:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:205:23: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:208:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:215:23: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:218:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:225:23: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:228:18: Expected a trailing semicolon (declaration-block-trailing-semicolon)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:83:20: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:92:13: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:93:12: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:98:15: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:103:22: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:107:22: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:113:13: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:127:22: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:152:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:177:26: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:198:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:208:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:218:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:228:11: Expected single space after ":" with a single-line declaration (declaration-colon-space-after)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:75:3: Expected indentation of 2 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:75:3: Expected indentation of 2 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:77:3: Expected indentation of 2 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:77:3: Expected indentation of 2 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:96:5: Expected indentation of 0 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:97:5: Expected indentation of 0 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:111:3: Expected indentation of 0 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:112:3: Expected indentation of 0 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:145:3: Expected indentation of 0 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:150:3: Expected indentation of 0 spaces (indentation)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:70:29: Expected a leading zero (number-leading-zero)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:70:63: Expected a leading zero (number-leading-zero)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:86:41: Expected a leading zero (number-leading-zero)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:118:41: Expected a leading zero (number-leading-zero)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:118:76: Expected a leading zero (number-leading-zero)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:118:107: Expected a leading zero (number-leading-zero)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:120:35: Expected a leading zero (number-leading-zero)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:134:41: Expected a leading zero (number-leading-zero)
+    
+    WARNING in ./~/css-loader!./~/postcss-loader!./src/styles/global-styles.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/styles/global-styles.scss:135:44: Expected a leading zero (number-leading-zero)
+Child extract-text-webpack-plugin:
+       [0] ./~/css-loader/lib/css-base.js 2.26 kB {0} [built]
+        + 1 hidden modules
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/C/C.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/C/C.scss:5:2: Expected newline after "}" (block-closing-brace-newline-after)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/C/C.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/C/C.scss:7:15: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/C/C.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/C/C.scss:6:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/C/C.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/C/C.scss:6:3: Expected empty line before rule (rule-empty-line-before)
+Child extract-text-webpack-plugin:
+       [0] ./~/css-loader/lib/css-base.js 2.26 kB {0} [built]
+        + 1 hidden modules
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/B/B.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/B/B.scss:5:2: Expected newline after "}" (block-closing-brace-newline-after)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/B/B.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/B/B.scss:7:15: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/B/B.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/B/B.scss:6:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/B/B.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/B/B.scss:6:3: Expected empty line before rule (rule-empty-line-before)
+Child extract-text-webpack-plugin:
+       [0] ./~/css-loader/lib/css-base.js 2.26 kB {0} [built]
+        + 1 hidden modules
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/A/A.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/A/A.scss:5:2: Expected newline after "}" (block-closing-brace-newline-after)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/A/A.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/A/A.scss:7:15: Expected newline before "}" of a multi-line block (block-closing-brace-newline-before)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/A/A.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/A/A.scss:6:15: Expected newline after "{" of a multi-line block (block-opening-brace-newline-after)
+    
+    WARNING in ./~/css-loader?modules&importLoaders=1&localIdentName=[name]-[local]-[hash:base64]!./~/postcss-loader!./src/components/A/A.scss
+    (Emitted value instead of an instance of Error) stylelint: /Users/ankeet.maini/Code/css-chunks-sample-app/src/components/A/A.scss:6:3: Expected empty line before rule (rule-empty-line-before)
+Child extract-text-webpack-plugin:
+       [0] ./~/css-loader/lib/css-base.js 2.26 kB {0} [built]
+       [1] ./~/css-loader!./~/postcss-loader!./~/flexboxgrid/dist/flexboxgrid.min.css 12.5 kB {0} [built]
